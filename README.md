@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# Timo Store POS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Timo Store POS is a powerful, feature-rich Point of Sale (POS) system designed for managing retail store operations efficiently. Built with modern web technologies, it supports streamlined inventory, sales, and customer management.
 
-Currently, two official plugins are available:
+## Features
+- Inventory and sales tracking.
+- Responsive and intuitive user interface.
+- Built with React, Vite.js, TypeScript, Redux Toolkit, React Query, Formik, Tailwind, and Shadcn.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **Front-End:** React, Vite.js, TypeScript, Tailwind CSS, Shadcn.
+- **State Management:** Redux Toolkit, Zustand.
+- **Data Handling:** React Query, Axios.
+- **Form Management:** Formik.
 
-## Expanding the ESLint configuration
+## Live Demo
+[Access the Live Demo](https://store-pos.timobio.com/login)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Source Code
+[GitHub Repository](https://github.com/Omid-Jafari/timo-store-pos)
 
-- Configure the top-level `parserOptions` property like this:
+## About
+This POS system was developed as part of the Timobio eCommerce ecosystem, enabling streamlined in-store operations.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+---
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+For **Timo Front-End**:  
+```markdown
+# Timo E-Commerce Platform
+
+Timo E-Commerce is a multilingual, scalable platform designed for seamless shopping experiences. Developed using Test-Driven Development (TDD) practices, it supports robust eCommerce features and internationalization.
+
+## Features
+- Multilingual support (powered by next-intl).
+- Test-Driven Development (TDD) with Vitest.
+- Responsive and user-friendly design.
+
+## Technologies Used
+- **Framework:** Next.js 14 (App Router), TypeScript.
+- **Styling:** Tailwind CSS, Shadcn, Swiper.
+- **State Management:** Zustand, React Query.
+- **Form Management:** Formik.
+
+## Live Demo
+[Access the Live Demo](https://new.timobio.com)
+
+## Source Code
+[GitHub Repository](https://github.com/Omid-Jafari/timo-front-end)
+
+## About
+This project showcases a modern eCommerce solution tailored for a Turkish retail shop. It was designed and built with scalability and usability in mind.
+
+---
+
+These descriptions highlight your skills and make a strong impression on recruiters while providing clear, professional documentation for your GitHub repositories. Let me know if you'd like further changes!
